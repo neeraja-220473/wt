@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    background-color: white;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    background-color: grey;
+    text-align: center;
+    padding: 8px;
+}
+
+/* .menu a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+} */
+
+.box {
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
