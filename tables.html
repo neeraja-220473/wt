@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tables</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        .tabl {
+            border-collapse: collapse;
+            width: 60%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .tth {
+            background-color: lightgreen;
+        }
+
+        .tabl th, .tabl td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+
+    <!-- EXTERNAL CSS LINK -->
+    <link rel="stylesheet" href="tabl.css">
+</head>
+
+<body>
+
+<!--  INLINE CSS TABLE  -->
+
+<h2>Student Details (Inline CSS)</h2>
+
+<table style="text-align:center; border:2px solid black; border-collapse:collapse; background-color:tomato; width:50%;">
+    <tr>
+        <th style="border:1px solid black;">Name</th>
+        <th style="border:1px solid black;">Age</th>
+        <th style="border:1px solid black;">Branch</th>
+    </tr>
+    <tr>
+        <td style="border:1px solid black;">Nitya</td>
+        <td style="border:1px solid black;">19</td>
+        <td style="border:1px solid black;">CSE</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid black;">Lavanya</td>
+        <td style="border:1px solid black;">19</td>
+        <td style="border:1px solid black;">CSE</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid black;">Seetha</td>
+        <td style="border:1px solid black;">19</td>
+        <td style="border:1px solid black;">ECE</td>
+    </tr>
+</table>
+
+<!--  INTERNAL CSS TABLE -->
+
+<h2>Student Details (Internal CSS)</h2>
+
+<table class="tabl">
+    <tr>
+        <th class="tth">ID</th>
+        <th class="tth">Name</th>
+        <th class="tth">Marks</th>
+        <th class="tth">Grade</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Anu</td>
+        <td>85</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Ravi</td>
+        <td>90</td>
+        <td>A+</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sita</td>
+        <td>78</td>
+        <td>B+</td>
+    </tr>
+</table>
+
+<!--  EXTERNAL CSS TABLE -->
+
+<h2>Employee Details (External CSS)</h2>
+
+<table class="emp-table">
+    <tr>
+        <th>Emp ID</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Salary</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Ramesh</td>
+        <td>HR</td>
+        <td>25000</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Suma</td>
+        <td>Finance</td>
+        <td>30000</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Kiran</td>
+        <td>IT</td>
+        <td>40000</td>
+    </tr>
+</table>
+
+</body>
+</html>
